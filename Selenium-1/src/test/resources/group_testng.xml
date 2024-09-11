@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite">
+    <test name="MetaGroupTest" thread-count="5" parallel="methods">
+        <groups>
+            <run>
+                <include name="userName"/>  <!--It will execute all the groups with the name userName -->
+                <include name="logout"/>    <!--similarly it will execute all the groups with the name logout -->
+                <exclude name="password"/>  <!--It will exclude execute of all the groups with the name password-->
+            </run>
+        </groups>
+        <classes>
+            <class name="org.testng.Groups">
+            </class>
+        </classes>
+    </test>
+</suite>
