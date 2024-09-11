@@ -1,4 +1,4 @@
-package org.example;
+package org.example.selenium;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;

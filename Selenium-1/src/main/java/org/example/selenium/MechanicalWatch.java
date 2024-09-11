@@ -1,4 +1,4 @@
-package org.example;
+package org.example.selenium;
 class MechanicalWatch extends AnalogWatch {
 
     // Using the final keyword to indicate that this field cannot be changed

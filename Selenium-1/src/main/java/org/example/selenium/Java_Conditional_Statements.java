@@ -1,4 +1,4 @@
-package org.example;
+package org.example.selenium;
 
 public class Java_Conditional_Statements {
 

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.selenium;
 
 class SmartWatch extends Watch { // Inheritance
     private boolean hasHeartRateMonitor;

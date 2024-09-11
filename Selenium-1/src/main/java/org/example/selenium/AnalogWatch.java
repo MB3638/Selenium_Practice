@@ -1,4 +1,4 @@
-package org.example;
+package org.example.selenium;
 
 abstract class AnalogWatch extends Watch {
 

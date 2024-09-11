@@ -1,4 +1,4 @@
-package org.example;
+package org.example.selenium;
 
 class Watch { // Encapsulation
     private String brand;
